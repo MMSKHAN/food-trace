@@ -1,0 +1,128 @@
+table{
+    overflow: hidden;
+    /* background-color: gray; */
+}
+tr{
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
+    padding: 2rem;
+    display: flex;
+   
+    width: 100vw;
+    
+}.loc{
+    position: relative;
+    left: 1rem;
+}.ownname{
+    position: relative;
+    left: 1rem;
+}.conta{
+    position: relative;
+    right: 1rem;
+}.city{
+    position: relative;
+    right: 1.5rem;
+}
+.row1{
+    gap: 4rem;
+    color: black;
+    width: fit-content;
+    text-align: center;
+}.row2{
+    gap: 0rem;
+    text-align: center;
+    width: fit-content;
+    color: black;
+}
+
+td{
+    width:11rem;
+    /* overflow-y: auto; */
+    /* width: 51rem; */
+    word-wrap: break-word;
+
+}.name{
+    position: relative;
+    left: 0.9rem;
+}
+.money{
+    position: relative;
+    right: 0rem;
+    width: fit-content;
+    /* border-bottom: 2px solid green; */
+    
+}
+li{
+    background-color: black;
+    border-radius: 8px;
+    margin-right: 3px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}li #navcol{
+    color: white;
+} NavLink .active{
+    color: red;
+}.lock{
+    position: relative;
+    left: 3rem;
+}.rec{
+    position: relative;
+    left: -3.5rem;
+}.con{
+    position: relative;
+    left: -6rem;
+}.prorow1{
+    gap: 10rem;
+    color: black;
+    width: 94%;
+    text-align: center;
+}.id{
+    position: relative;
+    left: 4.5rem;
+}.names{
+    position: relative;
+    left: 2.5rem;
+}.adders{
+    position: relative;
+    left: -0.5rem;
+}.varrity{
+    position: relative;
+    left: -4.5rem;
+}.quantity{
+    position: relative;
+    left: -7rem;
+}.hardata{
+    position: relative;
+    right: 13rem;
+}
+.prorow2{
+    gap: 0rem;
+    text-align: center;
+    width: 94%;
+    color: black;
+}.productinfo{
+    display: flex;
+    gap: 1rem;
+}.addre{
+    position: relative;
+    right: 8.5rem;
+}
+
+@media screen and (max-width:1100px) {
+  .conta{
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+  }.row1,.row2{
+    gap: 2rem;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+  }.name,.money,.message,.from,.time{
+position: static;
+text-align: center;
+  }.message{
+    margin-top: 38px;
+  }
+}
